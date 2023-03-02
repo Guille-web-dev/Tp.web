@@ -1,0 +1,7 @@
+@mixin contenedorPrincipal {
+    padding: 2rem;
+}
+@mixin colorBoton {
+    background-color: $color_2;
+    width: 80%;
+}

@@ -1,0 +1,37 @@
+@import "mixins";
+footer{
+    background-color: $color_2;
+  
+}
+.contenedor-footer{
+     @include contenedorPrincipal;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     h2{
+        font-size: 5rem;
+        color: $color_1;
+     }
+     .contenedor-ul{
+        display: flex;
+        align-items: center;
+     }
+     ul{
+        display: flex;
+        gap: 1rem;
+        padding: 0;
+     }
+     a{
+        text-decoration: none;
+        color: $color_1;
+        font-size:$font_size_nav ;
+        &:hover{
+            color: $color_3;
+        }
+     }
+     .contenedor-redes{
+        display: flex;
+        align-items: center;
+     }
+     
+}

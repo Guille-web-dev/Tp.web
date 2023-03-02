@@ -1,0 +1,26 @@
+
+.cabezera{
+    background-color: $color_2;
+    color: $color_1;
+    h1{
+        font-size: $font_size_nav;
+        margin-right: 6rem;
+    }
+    a{
+        color: $color_1;
+        font-size: 1.1rem;
+        &:hover{
+            color: $color_3;
+        } 
+    }
+    .btn{
+        color: $color_1;
+    }
+    .navbar-toggler-icon{
+        background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(31, 151, 31, 0.797)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+    }
+    .menu-desplegable{
+        border:1px solid $color_1;
+        box-shadow: none;
+    }
+}
