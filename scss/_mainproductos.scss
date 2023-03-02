@@ -1,0 +1,25 @@
+@import "mixins";
+.Contenedor-titulo-productos{
+    @extend .contenedor-principal-card;
+    h2 {
+    @include fontSizeTitulo;
+}
+}
+
+.contenedor-principal-card{
+    margin: 2rem;
+    padding: 1rem;
+    .contenedor-contenido-card{
+        margin-bottom: 1rem;
+       
+    }
+    .card{
+         @include efectoHover1;
+    }
+
+    img{
+        width: 15rem;
+        height: 10rem;
+        margin: 1.5rem;
+    }
+}
