@@ -71,7 +71,7 @@ footer {
 .contenedor-img-entrada {
   background-image: url(../img/imagen-entrada.webp);
   width: 100%;
-  height: 30rem;
+  height: 35rem;
   background-size: 100% 100%;
   display: flex;
   justify-content: center;
@@ -87,6 +87,7 @@ footer {
 
 .card-index {
   margin: 4rem;
+  margin-top: 5rem;
   display: flex;
   flex-flow: row wrap;
   gap: 4rem;
@@ -148,6 +149,18 @@ footer {
   width: 15rem;
   height: 10rem;
   margin: 1.5rem;
+}
+
+.boton-descarga {
+  background-color: rgb(38, 37, 53);
+}
+.boton-descarga:hover {
+  background-color: rgb(48, 36, 97);
+}
+.boton-descarga:hover:hover {
+  position: relative;
+  bottom: 1px;
+  box-shadow: 10px 10px 20px black;
 }
 
 /*# sourceMappingURL=style.css.map */
