@@ -1,7 +1,6 @@
 @import "mixins";
 footer{
     background-color: $color_2;
-  
 }
 .contenedor-footer{
      @include contenedorPrincipal;
