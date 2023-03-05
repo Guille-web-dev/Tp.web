@@ -1,8 +1,13 @@
 @import "mixins";
+.contenedor-card-descarga{
+    margin: 4rem;
+    gap: 2rem;
+
 .boton-descarga{
     background-color: $color_2;
     &:hover{
         @include efectoHover1;
         background-color: $hover_botones_card;
     }
+}
 }

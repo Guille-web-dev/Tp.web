@@ -8,7 +8,10 @@
 
 .contenedor-principal-card{
     margin: 2rem;
-    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
     .contenedor-contenido-card{
         margin-bottom: 1rem;
        
